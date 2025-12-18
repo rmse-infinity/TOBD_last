@@ -1,0 +1,61 @@
+version: '3'
+services:
+  namenode:
+    image: bde2020/hadoop-namenode:2.0.0-hadoop3.2.1-java8
+    environment: [CLUSTER_NAME=test, HDFS_CONF_dfs_permissions_enabled=false]
+    ports: ["9870:9870", "9000:9000"]
+
+  datanode:
+    image: bde2020/hadoop-datanode:2.0.0-hadoop3.2.1-java8
+    environment: [SERVICE_PRECONDITION=namenode:9870]
+    depends_on: [namenode]
+
+  spark-master:
+    # Вернули оригинальный bitnami без зеркал
+    image: bitnami/spark:3.3.4
+    environment: [SPARK_MODE=master]
+    ports: ["8080:8080", "7077:7077"]
+
+  spark-worker:
+    image: bitnami/spark:3.3.4
+    environment: [SPARK_MODE=worker, SPARK_MASTER_URL=spark://spark-master:7077]
+    depends_on: [spark-master]
+
+  postgres:
+    image: postgres:13
+    environment: [POSTGRES_USER=airflow, POSTGRES_PASSWORD=airflow, POSTGRES_DB=airflow]
+    ports: ["5432:5432"]
+
+  airflow-webserver:
+    build: ./docker/airflow
+    command: webserver
+    ports: ["8081:8080"]
+    environment:
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
+      AIRFLOW__CORE__LOAD_EXAMPLES: 'False'
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./spark_jobs:/opt/airflow/spark_jobs
+      - ./data:/opt/airflow/data
+    depends_on: [postgres, namenode, spark-master]
+
+  airflow-scheduler:
+    build: ./docker/airflow
+    command: scheduler
+    environment:
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
+      AIRFLOW__CORE__LOAD_EXAMPLES: 'False'
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./spark_jobs:/opt/airflow/spark_jobs
+      - ./data:/opt/airflow/data
+    depends_on: [postgres, namenode]
+
+  streamlit:
+    build: ./app
+    ports: ["8501:8501"]
+    depends_on: [postgres]
+    environment:
+      DB_URI: postgresql://airflow:airflow@postgres:5432/airflow
