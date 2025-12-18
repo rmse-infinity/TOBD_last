@@ -1,4 +1,4 @@
-pyspark==3.3.0
+pyspark==3.5.1
 apache-airflow==2.7.1
 pandas
 openpyxl
