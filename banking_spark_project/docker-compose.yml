@@ -1,6 +1,7 @@
 version: '3'
 services:
   namenode:
+    platform: linux/amd64
     image: bde2020/hadoop-namenode:2.0.0-hadoop3.2.1-java8
     container_name: namenode
     hostname: namenode
@@ -14,6 +15,7 @@ services:
       - "9000:9000"
 
   datanode:
+    platform: linux/amd64
     image: bde2020/hadoop-datanode:2.0.0-hadoop3.2.1-java8
     container_name: datanode
     environment:
@@ -64,10 +66,14 @@ services:
       - AIRFLOW__CORE__EXECUTOR=LocalExecutor
       - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
       - AIRFLOW__CORE__LOAD_EXAMPLES=False
+      # Исправление ошибки 403 и предупреждения о безопасности
+      - AIRFLOW__WEBSERVER__SECRET_KEY=my_secure_secret_key_fixed
     volumes:
       - ./dags:/opt/airflow/dags
       - ./spark_jobs:/opt/airflow/spark_jobs
       - ./data:/opt/airflow/data
+      # Исправление ошибки чтения логов (общая папка для scheduler и webserver)
+      - ./logs:/opt/airflow/logs
     depends_on:
       - postgres
       - namenode
@@ -80,10 +86,13 @@ services:
       - AIRFLOW__CORE__EXECUTOR=LocalExecutor
       - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres/airflow
       - AIRFLOW__CORE__LOAD_EXAMPLES=False
+      - AIRFLOW__WEBSERVER__SECRET_KEY=my_secure_secret_key_fixed
     volumes:
       - ./dags:/opt/airflow/dags
       - ./spark_jobs:/opt/airflow/spark_jobs
       - ./data:/opt/airflow/data
+      # Исправление ошибки чтения логов
+      - ./logs:/opt/airflow/logs
     depends_on:
       - postgres
       - namenode

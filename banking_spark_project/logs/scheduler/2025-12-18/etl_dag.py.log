@@ -1,0 +1,1195 @@
+[2025-12-18T14:04:08.031+0000] {processor.py:157} INFO - Started process (PID=163) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:04:08.033+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T14:04:08.034+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:04:08.034+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:04:08.061+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:04:08.225+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:04:08.225+0000] {manager.py:499} INFO - Created Permission View: %s
+[2025-12-18T14:04:08.232+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:04:08.232+0000] {manager.py:499} INFO - Created Permission View: %s
+[2025-12-18T14:04:08.234+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:04:08.234+0000] {manager.py:499} INFO - Created Permission View: %s
+[2025-12-18T14:04:08.234+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:04:08.234+0000] {security.py:708} INFO - Not syncing DAG-level permissions for DAG 'DAG:bank_bigdata_pipeline' as access control is unset.
+[2025-12-18T14:04:08.234+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:04:08.234+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T14:04:08.476+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:04:08.475+0000] {dag.py:2937} INFO - Creating ORM DAG for bank_bigdata_pipeline
+[2025-12-18T14:04:08.476+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:04:08.476+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T14:04:08.496+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.471 seconds
+[2025-12-18T14:04:38.727+0000] {processor.py:157} INFO - Started process (PID=285) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:04:38.727+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T14:04:38.728+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:04:38.728+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:04:38.746+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:04:38.771+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:04:38.771+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T14:04:38.780+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:04:38.780+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T14:04:38.792+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.073 seconds
+[2025-12-18T14:05:09.009+0000] {processor.py:157} INFO - Started process (PID=342) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:05:09.011+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T14:05:09.012+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:05:09.012+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:05:09.040+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:05:09.068+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:05:09.068+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T14:05:09.075+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:05:09.075+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T14:05:09.093+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.095 seconds
+[2025-12-18T14:05:39.297+0000] {processor.py:157} INFO - Started process (PID=347) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:05:39.298+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T14:05:39.300+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:05:39.299+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:05:39.314+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:05:39.335+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:05:39.335+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T14:05:39.343+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:05:39.343+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T14:05:39.353+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.061 seconds
+[2025-12-18T14:06:09.647+0000] {processor.py:157} INFO - Started process (PID=352) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:06:09.648+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T14:06:09.649+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:06:09.649+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:06:09.663+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:06:09.687+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:06:09.687+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T14:06:09.695+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:06:09.694+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T14:06:09.811+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.167 seconds
+[2025-12-18T14:06:39.918+0000] {processor.py:157} INFO - Started process (PID=357) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:06:39.919+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T14:06:39.920+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:06:39.920+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:06:39.936+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:06:39.961+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:06:39.961+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T14:06:40.077+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:06:40.077+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T14:06:40.086+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.173 seconds
+[2025-12-18T14:07:10.380+0000] {processor.py:157} INFO - Started process (PID=362) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:07:10.381+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T14:07:10.384+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:07:10.381+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:07:10.398+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:07:10.562+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:07:10.562+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T14:07:10.568+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:07:10.568+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T14:07:10.576+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.200 seconds
+[2025-12-18T14:07:40.667+0000] {processor.py:157} INFO - Started process (PID=367) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:07:40.669+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T14:07:40.670+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:07:40.669+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:07:40.852+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:07:40.874+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:07:40.874+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T14:07:40.879+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:07:40.879+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T14:07:40.886+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.225 seconds
+[2025-12-18T14:08:11.293+0000] {processor.py:157} INFO - Started process (PID=372) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:08:11.294+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T14:08:11.295+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:08:11.295+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:08:11.307+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:08:11.329+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:08:11.329+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T14:08:11.336+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:08:11.336+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T14:08:11.343+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.054 seconds
+[2025-12-18T14:08:41.611+0000] {processor.py:157} INFO - Started process (PID=377) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:08:41.612+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T14:08:41.612+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:08:41.612+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:08:41.630+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:08:41.652+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:08:41.652+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T14:08:41.659+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:08:41.659+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T14:08:41.667+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.060 seconds
+[2025-12-18T14:09:11.900+0000] {processor.py:157} INFO - Started process (PID=550) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:09:11.901+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T14:09:11.902+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:09:11.901+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:09:11.920+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:09:11.950+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:09:11.950+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T14:09:11.961+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:09:11.961+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T14:09:11.969+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.072 seconds
+[2025-12-18T14:09:42.202+0000] {processor.py:157} INFO - Started process (PID=598) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:09:42.203+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T14:09:42.203+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:09:42.203+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:09:42.214+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:09:42.238+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:09:42.238+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T14:09:42.246+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:09:42.246+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T14:09:42.257+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.059 seconds
+[2025-12-18T14:10:12.536+0000] {processor.py:157} INFO - Started process (PID=740) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:10:12.537+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T14:10:12.538+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:10:12.537+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:10:12.560+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:10:12.597+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:10:12.596+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T14:10:12.605+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:10:12.605+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T14:10:12.618+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.088 seconds
+[2025-12-18T14:10:42.858+0000] {processor.py:157} INFO - Started process (PID=745) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:10:42.859+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T14:10:42.860+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:10:42.860+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:10:42.879+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:10:42.914+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:10:42.914+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T14:10:42.926+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:10:42.926+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T14:10:42.940+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.090 seconds
+[2025-12-18T14:11:13.161+0000] {processor.py:157} INFO - Started process (PID=750) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:11:13.162+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T14:11:13.163+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:11:13.162+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:11:13.179+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:11:13.207+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:11:13.207+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T14:11:13.214+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:11:13.214+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T14:11:13.222+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.067 seconds
+[2025-12-18T14:11:43.416+0000] {processor.py:157} INFO - Started process (PID=755) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:11:43.417+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T14:11:43.418+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:11:43.417+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:11:43.434+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:11:43.469+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:11:43.469+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T14:11:43.480+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:11:43.480+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T14:11:43.492+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.085 seconds
+[2025-12-18T14:12:13.753+0000] {processor.py:157} INFO - Started process (PID=928) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:12:13.753+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T14:12:13.754+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:12:13.754+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:12:13.766+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:12:13.786+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:12:13.786+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T14:12:13.795+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:12:13.795+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T14:12:13.804+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.055 seconds
+[2025-12-18T14:12:44.130+0000] {processor.py:157} INFO - Started process (PID=933) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:12:44.131+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T14:12:44.132+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:12:44.132+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:12:44.150+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:12:44.188+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:12:44.188+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T14:12:44.200+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:12:44.200+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T14:12:44.209+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.089 seconds
+[2025-12-18T14:29:51.540+0000] {processor.py:157} INFO - Started process (PID=938) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:29:51.541+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T14:29:51.542+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:29:51.541+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:29:51.557+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:29:51.587+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:29:51.587+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T14:29:51.595+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:29:51.595+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T14:29:51.603+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.067 seconds
+[2025-12-18T14:30:22.076+0000] {processor.py:157} INFO - Started process (PID=1272) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:30:22.078+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T14:30:22.080+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:30:22.079+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:30:22.108+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:30:22.145+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:30:22.145+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T14:30:22.157+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:30:22.157+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T14:30:22.165+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.100 seconds
+[2025-12-18T14:30:52.342+0000] {processor.py:157} INFO - Started process (PID=1277) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:30:52.344+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T14:30:52.345+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:30:52.345+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:30:52.369+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:30:52.401+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:30:52.401+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T14:30:52.414+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:30:52.413+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T14:30:52.421+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.091 seconds
+[2025-12-18T14:48:00.374+0000] {processor.py:157} INFO - Started process (PID=1283) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:48:00.375+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T14:48:00.378+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:48:00.377+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:48:00.406+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:48:00.450+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:48:00.450+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T14:48:00.466+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:48:00.466+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T14:48:00.481+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.111 seconds
+[2025-12-18T14:50:00.637+0000] {processor.py:157} INFO - Started process (PID=1289) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:50:00.639+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T14:50:00.640+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:50:00.639+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:50:00.664+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T14:50:00.710+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:50:00.710+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T14:50:00.724+0000] {logging_mixin.py:151} INFO - [2025-12-18T14:50:00.724+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T14:50:00.734+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.107 seconds
+[2025-12-18T15:07:05.195+0000] {processor.py:157} INFO - Started process (PID=1296) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T15:07:05.197+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T15:07:05.198+0000] {logging_mixin.py:151} INFO - [2025-12-18T15:07:05.197+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T15:07:05.225+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T15:07:05.292+0000] {logging_mixin.py:151} INFO - [2025-12-18T15:07:05.291+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T15:07:05.313+0000] {logging_mixin.py:151} INFO - [2025-12-18T15:07:05.313+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T15:07:05.337+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.148 seconds
+[2025-12-18T15:08:13.538+0000] {processor.py:157} INFO - Started process (PID=1301) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T15:08:13.540+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T15:08:13.541+0000] {logging_mixin.py:151} INFO - [2025-12-18T15:08:13.540+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T15:08:13.560+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T15:08:13.593+0000] {logging_mixin.py:151} INFO - [2025-12-18T15:08:13.593+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T15:08:13.605+0000] {logging_mixin.py:151} INFO - [2025-12-18T15:08:13.605+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T15:08:13.618+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.089 seconds
+[2025-12-18T15:10:14.512+0000] {processor.py:157} INFO - Started process (PID=1306) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T15:10:14.514+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T15:10:14.515+0000] {logging_mixin.py:151} INFO - [2025-12-18T15:10:14.514+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T15:10:14.531+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T15:10:14.564+0000] {logging_mixin.py:151} INFO - [2025-12-18T15:10:14.564+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T15:10:14.574+0000] {logging_mixin.py:151} INFO - [2025-12-18T15:10:14.574+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T15:10:14.582+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.073 seconds
+[2025-12-18T15:45:44.166+0000] {processor.py:157} INFO - Started process (PID=1311) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T15:45:44.168+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T15:45:44.170+0000] {logging_mixin.py:151} INFO - [2025-12-18T15:45:44.169+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T15:45:44.202+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T15:45:44.236+0000] {logging_mixin.py:151} INFO - [2025-12-18T15:45:44.236+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T15:45:44.245+0000] {logging_mixin.py:151} INFO - [2025-12-18T15:45:44.244+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T15:45:44.261+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.102 seconds
+[2025-12-18T17:04:38.963+0000] {processor.py:157} INFO - Started process (PID=1316) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T17:04:38.965+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T17:04:38.968+0000] {logging_mixin.py:151} INFO - [2025-12-18T17:04:38.967+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T17:04:39.023+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T17:04:39.093+0000] {logging_mixin.py:151} INFO - [2025-12-18T17:04:39.093+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T17:04:39.118+0000] {logging_mixin.py:151} INFO - [2025-12-18T17:04:39.118+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T17:04:39.144+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.193 seconds
+[2025-12-18T18:15:43.708+0000] {processor.py:157} INFO - Started process (PID=1323) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:15:43.709+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:15:43.710+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:15:43.710+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:15:43.739+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:15:43.800+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:15:43.800+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:15:43.826+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:15:43.826+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:15:43.856+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.155 seconds
+[2025-12-18T18:25:15.112+0000] {processor.py:157} INFO - Started process (PID=1328) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:25:15.113+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:25:15.117+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:25:15.115+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:25:15.151+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:25:15.195+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:25:15.195+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:25:15.205+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:25:15.205+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:25:15.224+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.120 seconds
+[2025-12-18T18:25:45.415+0000] {processor.py:157} INFO - Started process (PID=1333) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:25:45.417+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:25:45.418+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:25:45.418+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:25:45.447+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:25:45.497+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:25:45.497+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:25:45.510+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:25:45.510+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:25:45.522+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.118 seconds
+[2025-12-18T18:26:15.836+0000] {processor.py:157} INFO - Started process (PID=1338) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:26:15.838+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:26:15.839+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:26:15.839+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:26:15.856+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:26:15.891+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:26:15.891+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:26:15.904+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:26:15.904+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:26:15.912+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.085 seconds
+[2025-12-18T18:26:46.194+0000] {processor.py:157} INFO - Started process (PID=1343) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:26:46.195+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:26:46.196+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:26:46.196+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:26:46.225+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:26:46.257+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:26:46.257+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:26:46.269+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:26:46.269+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:26:46.278+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.096 seconds
+[2025-12-18T18:27:16.501+0000] {processor.py:157} INFO - Started process (PID=1348) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:27:16.501+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:27:16.502+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:27:16.502+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:27:16.515+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:27:16.539+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:27:16.539+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:27:16.548+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:27:16.548+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:27:16.556+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.059 seconds
+[2025-12-18T18:27:46.764+0000] {processor.py:157} INFO - Started process (PID=1353) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:27:46.765+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:27:46.766+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:27:46.766+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:27:46.783+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:27:46.807+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:27:46.807+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:27:46.816+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:27:46.816+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:27:46.825+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.066 seconds
+[2025-12-18T18:28:17.070+0000] {processor.py:157} INFO - Started process (PID=1358) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:28:17.072+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:28:17.073+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:28:17.073+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:28:17.098+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:28:17.127+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:28:17.127+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:28:17.139+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:28:17.139+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:28:17.148+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.087 seconds
+[2025-12-18T18:28:47.357+0000] {processor.py:157} INFO - Started process (PID=1363) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:28:47.359+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:28:47.360+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:28:47.359+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:28:47.386+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:28:47.415+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:28:47.415+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:28:47.425+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:28:47.425+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:28:47.433+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.082 seconds
+[2025-12-18T18:29:17.666+0000] {processor.py:157} INFO - Started process (PID=1368) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:29:17.668+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:29:17.669+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:29:17.668+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:29:17.693+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:29:17.730+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:29:17.730+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:29:17.740+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:29:17.740+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:29:17.750+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.090 seconds
+[2025-12-18T18:29:48.050+0000] {processor.py:157} INFO - Started process (PID=1373) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:29:48.053+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:29:48.054+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:29:48.053+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:29:48.077+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:29:48.115+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:29:48.115+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:29:48.130+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:29:48.130+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:29:48.140+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.097 seconds
+[2025-12-18T18:30:18.435+0000] {processor.py:157} INFO - Started process (PID=1378) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:30:18.436+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:30:18.437+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:30:18.436+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:30:18.454+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:30:18.482+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:30:18.482+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:30:18.495+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:30:18.495+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:30:18.506+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.075 seconds
+[2025-12-18T18:30:48.792+0000] {processor.py:157} INFO - Started process (PID=1383) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:30:48.794+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:30:48.795+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:30:48.794+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:30:48.820+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:30:48.865+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:30:48.865+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:30:48.876+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:30:48.876+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:30:48.887+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.102 seconds
+[2025-12-18T18:31:19.181+0000] {processor.py:157} INFO - Started process (PID=1388) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:31:19.184+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:31:19.185+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:31:19.185+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:31:19.214+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:31:19.259+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:31:19.259+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:31:19.272+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:31:19.272+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:31:19.286+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.113 seconds
+[2025-12-18T18:31:49.470+0000] {processor.py:157} INFO - Started process (PID=1393) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:31:49.472+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:31:49.473+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:31:49.472+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:31:49.499+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:31:49.545+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:31:49.545+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:31:49.558+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:31:49.558+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:31:49.573+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.112 seconds
+[2025-12-18T18:32:19.879+0000] {processor.py:157} INFO - Started process (PID=1398) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:32:19.881+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:32:19.883+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:32:19.882+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:32:19.916+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:32:19.962+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:32:19.961+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:32:19.975+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:32:19.974+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:32:19.989+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.119 seconds
+[2025-12-18T18:32:50.268+0000] {processor.py:157} INFO - Started process (PID=1403) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:32:50.269+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:32:50.270+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:32:50.270+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:32:50.289+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:32:50.331+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:32:50.331+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:32:50.343+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:32:50.342+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:32:50.355+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.097 seconds
+[2025-12-18T18:33:20.672+0000] {processor.py:157} INFO - Started process (PID=1408) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:33:20.679+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:33:20.690+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:33:20.683+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:33:20.718+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:33:20.756+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:33:20.756+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:33:20.767+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:33:20.767+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:33:20.776+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.117 seconds
+[2025-12-18T18:33:50.993+0000] {processor.py:157} INFO - Started process (PID=1413) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:33:50.995+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:33:50.995+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:33:50.995+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:33:51.009+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:33:51.035+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:33:51.035+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:33:51.044+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:33:51.044+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:33:51.052+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.063 seconds
+[2025-12-18T18:34:21.483+0000] {processor.py:157} INFO - Started process (PID=1418) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:34:21.484+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:34:21.485+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:34:21.485+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:34:21.509+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:34:21.547+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:34:21.547+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:34:21.592+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:34:21.592+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:34:21.634+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.163 seconds
+[2025-12-18T18:34:51.987+0000] {processor.py:157} INFO - Started process (PID=1423) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:34:51.988+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:34:51.989+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:34:51.989+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:34:52.011+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:34:52.047+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:34:52.047+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:34:52.061+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:34:52.061+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:34:52.074+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.093 seconds
+[2025-12-18T18:35:22.525+0000] {processor.py:157} INFO - Started process (PID=1428) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:35:22.527+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:35:22.529+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:35:22.528+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:35:22.549+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:35:22.593+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:35:22.593+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:35:22.608+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:35:22.608+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:35:22.624+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.104 seconds
+[2025-12-18T18:35:52.883+0000] {processor.py:157} INFO - Started process (PID=1433) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:35:52.884+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:35:52.885+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:35:52.885+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:35:52.911+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:35:52.944+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:35:52.943+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:35:52.955+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:35:52.955+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:35:52.966+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.088 seconds
+[2025-12-18T18:36:23.256+0000] {processor.py:157} INFO - Started process (PID=1438) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:36:23.258+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:36:23.259+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:36:23.258+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:36:23.277+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:36:23.307+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:36:23.307+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:36:23.316+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:36:23.316+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:36:23.324+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.074 seconds
+[2025-12-18T18:36:53.593+0000] {processor.py:157} INFO - Started process (PID=1443) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:36:53.594+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:36:53.595+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:36:53.594+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:36:53.610+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:36:53.643+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:36:53.643+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:36:53.652+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:36:53.652+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:36:53.660+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.078 seconds
+[2025-12-18T18:37:24.036+0000] {processor.py:157} INFO - Started process (PID=1448) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:37:24.038+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:37:24.039+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:37:24.039+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:37:24.062+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:37:24.104+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:37:24.104+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:37:24.118+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:37:24.118+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:37:24.138+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.114 seconds
+[2025-12-18T18:37:54.414+0000] {processor.py:157} INFO - Started process (PID=1453) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:37:54.419+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:37:54.420+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:37:54.420+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:37:54.441+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:37:54.480+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:37:54.479+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:37:54.494+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:37:54.494+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:37:54.508+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.100 seconds
+[2025-12-18T18:38:24.793+0000] {processor.py:157} INFO - Started process (PID=1458) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:38:24.794+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:38:24.795+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:38:24.795+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:38:24.821+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:38:24.879+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:38:24.878+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:38:24.906+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:38:24.905+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:38:24.926+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.139 seconds
+[2025-12-18T18:38:55.189+0000] {processor.py:157} INFO - Started process (PID=1463) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:38:55.191+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:38:55.193+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:38:55.192+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:38:55.222+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:38:55.277+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:38:55.277+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:38:55.294+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:38:55.294+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:38:55.306+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.128 seconds
+[2025-12-18T18:39:25.625+0000] {processor.py:157} INFO - Started process (PID=1468) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:39:25.632+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:39:25.633+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:39:25.633+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:39:25.656+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:39:25.701+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:39:25.701+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:39:25.746+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:39:25.746+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:39:25.785+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.193 seconds
+[2025-12-18T18:39:55.952+0000] {processor.py:157} INFO - Started process (PID=1473) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:39:55.953+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:39:55.955+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:39:55.954+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:39:55.978+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:39:56.050+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:39:56.050+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:39:56.069+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:39:56.068+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:39:56.086+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.150 seconds
+[2025-12-18T18:40:26.554+0000] {processor.py:157} INFO - Started process (PID=1478) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:40:26.556+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:40:26.557+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:40:26.557+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:40:26.580+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:40:26.620+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:40:26.620+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:40:26.633+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:40:26.632+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:40:26.651+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.106 seconds
+[2025-12-18T18:40:56.942+0000] {processor.py:157} INFO - Started process (PID=1483) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:40:56.947+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:40:56.948+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:40:56.948+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:40:56.977+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:40:57.020+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:40:57.019+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:40:57.035+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:40:57.035+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:40:57.047+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.113 seconds
+[2025-12-18T18:41:27.491+0000] {processor.py:157} INFO - Started process (PID=1488) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:41:27.493+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:41:27.494+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:41:27.493+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:41:27.539+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:41:27.576+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:41:27.576+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:41:27.590+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:41:27.590+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:41:27.600+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.120 seconds
+[2025-12-18T18:41:57.857+0000] {processor.py:157} INFO - Started process (PID=1493) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:41:57.859+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:41:57.860+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:41:57.859+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:41:57.874+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:41:57.904+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:41:57.904+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:41:57.916+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:41:57.916+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:41:57.925+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.073 seconds
+[2025-12-18T18:42:28.452+0000] {processor.py:157} INFO - Started process (PID=1498) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:42:28.454+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:42:28.455+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:42:28.454+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:42:28.487+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:42:28.531+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:42:28.531+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:42:28.546+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:42:28.545+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:42:28.557+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.113 seconds
+[2025-12-18T18:42:58.857+0000] {processor.py:157} INFO - Started process (PID=1503) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:42:58.859+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:42:58.860+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:42:58.859+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:42:58.876+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:42:58.908+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:42:58.908+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:42:58.921+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:42:58.921+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:42:58.929+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.077 seconds
+[2025-12-18T18:43:29.212+0000] {processor.py:157} INFO - Started process (PID=1508) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:43:29.213+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:43:29.214+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:43:29.214+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:43:29.237+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:43:29.273+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:43:29.273+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:43:29.283+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:43:29.283+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:43:29.294+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.086 seconds
+[2025-12-18T18:43:59.551+0000] {processor.py:157} INFO - Started process (PID=1513) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:43:59.553+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:43:59.554+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:43:59.553+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:43:59.582+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:43:59.621+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:43:59.621+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:43:59.636+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:43:59.635+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:43:59.646+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.108 seconds
+[2025-12-18T18:44:29.915+0000] {processor.py:157} INFO - Started process (PID=1518) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:44:29.918+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:44:29.919+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:44:29.919+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:44:29.940+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:44:29.974+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:44:29.974+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:44:29.989+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:44:29.989+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:44:29.998+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.089 seconds
+[2025-12-18T18:45:00.322+0000] {processor.py:157} INFO - Started process (PID=1523) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:45:00.323+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:45:00.325+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:45:00.324+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:45:00.345+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:45:00.376+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:45:00.376+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:45:00.385+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:45:00.385+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:45:00.394+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.079 seconds
+[2025-12-18T18:45:30.720+0000] {processor.py:157} INFO - Started process (PID=1528) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:45:30.722+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:45:30.724+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:45:30.724+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:45:30.747+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:45:30.793+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:45:30.792+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:45:30.805+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:45:30.805+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:45:30.823+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.109 seconds
+[2025-12-18T18:46:01.071+0000] {processor.py:157} INFO - Started process (PID=1533) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:46:01.080+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:46:01.082+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:46:01.081+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:46:01.108+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:46:01.166+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:46:01.166+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:46:01.195+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:46:01.195+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:46:01.220+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.164 seconds
+[2025-12-18T18:46:31.397+0000] {processor.py:157} INFO - Started process (PID=1538) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:46:31.399+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:46:31.400+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:46:31.399+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:46:31.421+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:46:31.457+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:46:31.457+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:46:31.465+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:46:31.465+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:46:31.475+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.088 seconds
+[2025-12-18T18:47:01.796+0000] {processor.py:157} INFO - Started process (PID=1543) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:47:01.797+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:47:01.799+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:47:01.798+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:47:01.819+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:47:01.889+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:47:01.889+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:47:01.920+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:47:01.920+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:47:01.945+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.155 seconds
+[2025-12-18T18:47:32.180+0000] {processor.py:157} INFO - Started process (PID=1548) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:47:32.181+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:47:32.182+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:47:32.182+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:47:32.204+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:47:32.240+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:47:32.240+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:47:32.255+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:47:32.255+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:47:32.264+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.090 seconds
+[2025-12-18T18:48:02.598+0000] {processor.py:157} INFO - Started process (PID=1553) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:48:02.600+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:48:02.602+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:48:02.601+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:48:02.624+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:48:02.660+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:48:02.660+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:48:02.672+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:48:02.672+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:48:02.681+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.091 seconds
+[2025-12-18T18:48:33.001+0000] {processor.py:157} INFO - Started process (PID=1558) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:48:33.003+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:48:33.004+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:48:33.004+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:48:33.025+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:48:33.059+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:48:33.059+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:48:33.073+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:48:33.073+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:48:33.083+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.088 seconds
+[2025-12-18T18:49:03.370+0000] {processor.py:157} INFO - Started process (PID=1563) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:49:03.372+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:49:03.373+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:49:03.373+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:49:03.395+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:49:03.433+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:49:03.433+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:49:03.444+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:49:03.444+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:49:03.454+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.091 seconds
+[2025-12-18T18:49:33.770+0000] {processor.py:157} INFO - Started process (PID=1568) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:49:33.772+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:49:33.774+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:49:33.773+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:49:33.792+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:49:33.826+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:49:33.826+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:49:33.841+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:49:33.841+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:49:33.852+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.089 seconds
+[2025-12-18T18:50:04.134+0000] {processor.py:157} INFO - Started process (PID=1573) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:50:04.135+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:50:04.136+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:50:04.136+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:50:04.155+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:50:04.199+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:50:04.199+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:50:04.209+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:50:04.209+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:50:04.222+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.099 seconds
+[2025-12-18T18:50:34.507+0000] {processor.py:157} INFO - Started process (PID=1578) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:50:34.508+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:50:34.509+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:50:34.508+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:50:34.532+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:50:34.566+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:50:34.566+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:50:34.576+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:50:34.576+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:50:34.593+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.091 seconds
+[2025-12-18T18:51:04.830+0000] {processor.py:157} INFO - Started process (PID=1583) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:51:04.832+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:51:04.833+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:51:04.832+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:51:04.871+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:51:04.922+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:51:04.922+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:51:04.950+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:51:04.950+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:51:04.979+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.171 seconds
+[2025-12-18T18:51:35.072+0000] {processor.py:157} INFO - Started process (PID=1588) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:51:35.075+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:51:35.076+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:51:35.075+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:51:35.099+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:51:35.141+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:51:35.141+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:51:35.154+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:51:35.154+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:51:35.173+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.107 seconds
+[2025-12-18T18:52:05.324+0000] {processor.py:157} INFO - Started process (PID=1593) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:52:05.326+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:52:05.327+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:52:05.327+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:52:05.344+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:52:05.372+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:52:05.372+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:52:05.379+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:52:05.379+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:52:05.387+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.069 seconds
+[2025-12-18T18:52:35.678+0000] {processor.py:157} INFO - Started process (PID=1598) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:52:35.680+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:52:35.681+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:52:35.681+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:52:35.703+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:52:35.736+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:52:35.736+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:52:35.752+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:52:35.752+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:52:35.761+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.089 seconds
+[2025-12-18T18:53:06.051+0000] {processor.py:157} INFO - Started process (PID=1603) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:53:06.057+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:53:06.060+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:53:06.058+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:53:06.083+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:53:06.124+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:53:06.124+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:53:06.150+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:53:06.150+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:53:06.175+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.141 seconds
+[2025-12-18T18:53:36.353+0000] {processor.py:157} INFO - Started process (PID=1608) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:53:36.357+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:53:36.366+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:53:36.360+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:53:36.387+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:53:36.422+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:53:36.422+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:53:36.435+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:53:36.435+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:53:36.450+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.107 seconds
+[2025-12-18T18:54:06.814+0000] {processor.py:157} INFO - Started process (PID=1613) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:54:06.818+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:54:06.821+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:54:06.820+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:54:06.839+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:54:06.891+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:54:06.890+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:54:06.902+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:54:06.902+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:54:06.913+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.117 seconds
+[2025-12-18T18:54:37.213+0000] {processor.py:157} INFO - Started process (PID=1618) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:54:37.215+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:54:37.216+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:54:37.216+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:54:37.234+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:54:37.267+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:54:37.267+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:54:37.282+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:54:37.282+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:54:37.292+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.084 seconds
+[2025-12-18T18:55:07.573+0000] {processor.py:157} INFO - Started process (PID=1623) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:55:07.574+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:55:07.581+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:55:07.577+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:55:07.604+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:55:07.681+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:55:07.681+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:55:07.703+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:55:07.703+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:55:07.724+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.156 seconds
+[2025-12-18T18:55:37.992+0000] {processor.py:157} INFO - Started process (PID=1628) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:55:37.995+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:55:37.997+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:55:37.996+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:55:38.016+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:55:38.048+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:55:38.048+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:55:38.057+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:55:38.057+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:55:38.065+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.079 seconds
+[2025-12-18T18:56:08.385+0000] {processor.py:157} INFO - Started process (PID=1633) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:56:08.386+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:56:08.389+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:56:08.387+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:56:08.434+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:56:08.467+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:56:08.467+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:56:08.483+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:56:08.483+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:56:08.497+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.122 seconds
+[2025-12-18T18:56:38.792+0000] {processor.py:157} INFO - Started process (PID=1638) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:56:38.793+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:56:38.795+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:56:38.794+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:56:38.818+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:56:38.862+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:56:38.862+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:56:38.881+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:56:38.881+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:56:38.903+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.123 seconds
+[2025-12-18T18:57:09.187+0000] {processor.py:157} INFO - Started process (PID=1643) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:57:09.190+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:57:09.192+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:57:09.191+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:57:09.218+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:57:09.270+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:57:09.270+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:57:09.306+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:57:09.306+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:57:09.331+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.151 seconds
+[2025-12-18T18:57:39.559+0000] {processor.py:157} INFO - Started process (PID=1648) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:57:39.565+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:57:39.566+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:57:39.565+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:57:39.589+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:57:39.672+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:57:39.672+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:57:39.741+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:57:39.741+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:57:39.772+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.234 seconds
+[2025-12-18T18:58:09.923+0000] {processor.py:157} INFO - Started process (PID=1653) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:58:09.929+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:58:09.931+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:58:09.930+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:58:09.954+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:58:10.022+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:58:10.022+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:58:10.059+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:58:10.059+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:58:10.080+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.172 seconds
+[2025-12-18T18:58:40.435+0000] {processor.py:157} INFO - Started process (PID=1658) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:58:40.436+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:58:40.440+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:58:40.437+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:58:40.462+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:58:40.510+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:58:40.510+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:58:40.528+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:58:40.527+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:58:40.539+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.110 seconds
+[2025-12-18T18:59:10.701+0000] {processor.py:157} INFO - Started process (PID=1663) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:59:10.703+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:59:10.704+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:59:10.704+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:59:10.720+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:59:10.751+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:59:10.751+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:59:10.776+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:59:10.776+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:59:10.793+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.098 seconds
+[2025-12-18T18:59:41.123+0000] {processor.py:157} INFO - Started process (PID=1668) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:59:41.125+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T18:59:41.126+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:59:41.125+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:59:41.141+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T18:59:41.165+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:59:41.165+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T18:59:41.174+0000] {logging_mixin.py:151} INFO - [2025-12-18T18:59:41.174+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T18:59:41.182+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.063 seconds
+[2025-12-18T19:00:11.415+0000] {processor.py:157} INFO - Started process (PID=1673) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:00:11.416+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:00:11.417+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:00:11.417+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:00:11.429+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:00:11.487+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:00:11.487+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:00:11.517+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:00:11.517+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:00:11.535+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.124 seconds
+[2025-12-18T19:00:41.841+0000] {processor.py:157} INFO - Started process (PID=1678) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:00:41.843+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:00:41.845+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:00:41.844+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:00:41.865+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:00:41.897+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:00:41.897+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:00:41.906+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:00:41.906+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:00:41.916+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.081 seconds
+[2025-12-18T19:01:12.207+0000] {processor.py:157} INFO - Started process (PID=1683) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:01:12.211+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:01:12.212+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:01:12.212+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:01:12.245+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:01:12.276+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:01:12.275+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:01:12.287+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:01:12.287+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:01:12.300+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.101 seconds
+[2025-12-18T19:01:42.613+0000] {processor.py:157} INFO - Started process (PID=1688) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:01:42.616+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:01:42.617+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:01:42.616+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:01:42.636+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:01:42.684+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:01:42.684+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:01:42.696+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:01:42.696+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:01:42.707+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.102 seconds
+[2025-12-18T19:02:12.987+0000] {processor.py:157} INFO - Started process (PID=1693) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:02:12.989+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:02:12.991+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:02:12.990+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:02:13.010+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:02:13.046+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:02:13.046+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:02:13.061+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:02:13.061+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:02:13.076+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.097 seconds
+[2025-12-18T19:02:43.309+0000] {processor.py:157} INFO - Started process (PID=1698) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:02:43.310+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:02:43.311+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:02:43.311+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:02:43.335+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:02:43.365+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:02:43.365+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:02:43.377+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:02:43.377+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:02:43.388+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.085 seconds
+[2025-12-18T19:03:13.653+0000] {processor.py:157} INFO - Started process (PID=1703) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:03:13.655+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:03:13.656+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:03:13.655+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:03:13.681+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:03:13.718+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:03:13.718+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:03:13.734+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:03:13.734+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:03:13.755+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.111 seconds
+[2025-12-18T19:03:44.012+0000] {processor.py:157} INFO - Started process (PID=1708) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:03:44.014+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:03:44.016+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:03:44.015+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:03:44.050+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:03:44.086+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:03:44.086+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:03:44.096+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:03:44.096+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:03:44.105+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.100 seconds
+[2025-12-18T19:04:14.345+0000] {processor.py:157} INFO - Started process (PID=1713) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:04:14.347+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:04:14.348+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:04:14.347+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:04:14.370+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:04:14.408+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:04:14.407+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:04:14.418+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:04:14.418+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:04:14.428+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.089 seconds
+[2025-12-18T19:04:44.712+0000] {processor.py:157} INFO - Started process (PID=1718) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:04:44.714+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:04:44.715+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:04:44.715+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:04:44.739+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:04:44.772+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:04:44.772+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:04:44.796+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:04:44.796+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:04:44.816+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.111 seconds
+[2025-12-18T19:05:15.085+0000] {processor.py:157} INFO - Started process (PID=1723) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:05:15.087+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:05:15.088+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:05:15.087+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:05:15.109+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:05:15.141+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:05:15.141+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:05:15.150+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:05:15.150+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:05:15.158+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.081 seconds
+[2025-12-18T19:05:45.433+0000] {processor.py:157} INFO - Started process (PID=1728) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:05:45.436+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:05:45.438+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:05:45.436+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:05:45.458+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:05:45.492+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:05:45.491+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:05:45.517+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:05:45.517+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:05:45.533+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.107 seconds
+[2025-12-18T19:06:15.777+0000] {processor.py:157} INFO - Started process (PID=1733) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:06:15.779+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:06:15.780+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:06:15.779+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:06:15.800+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:06:15.825+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:06:15.825+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:06:15.833+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:06:15.833+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:06:15.851+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.082 seconds
+[2025-12-18T19:06:46.137+0000] {processor.py:157} INFO - Started process (PID=1738) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:06:46.139+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:06:46.141+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:06:46.140+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:06:46.162+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:06:46.210+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:06:46.210+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:06:46.221+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:06:46.221+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:06:46.233+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.111 seconds
+[2025-12-18T19:07:16.443+0000] {processor.py:157} INFO - Started process (PID=1743) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:07:16.445+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:07:16.446+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:07:16.445+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:07:16.463+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:07:16.489+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:07:16.489+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:07:16.497+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:07:16.497+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:07:16.504+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.070 seconds
+[2025-12-18T19:07:46.763+0000] {processor.py:157} INFO - Started process (PID=1748) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:07:46.764+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:07:46.765+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:07:46.765+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:07:46.781+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:07:46.811+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:07:46.811+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:07:46.832+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:07:46.831+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:07:46.841+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.082 seconds
+[2025-12-18T19:08:17.042+0000] {processor.py:157} INFO - Started process (PID=1753) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:08:17.044+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:08:17.045+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:08:17.044+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:08:17.059+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:08:17.087+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:08:17.087+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:08:17.099+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:08:17.099+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:08:17.111+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.073 seconds
+[2025-12-18T19:08:47.419+0000] {processor.py:157} INFO - Started process (PID=1758) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:08:47.421+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:08:47.421+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:08:47.421+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:08:47.437+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:08:47.466+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:08:47.466+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:08:47.473+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:08:47.473+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:08:47.481+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.067 seconds
+[2025-12-18T19:09:17.712+0000] {processor.py:157} INFO - Started process (PID=1763) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:09:17.713+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:09:17.714+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:09:17.714+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:09:17.730+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:09:17.755+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:09:17.755+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:09:17.768+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:09:17.768+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:09:17.777+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.069 seconds
+[2025-12-18T19:09:48.033+0000] {processor.py:157} INFO - Started process (PID=1768) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:09:48.034+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:09:48.036+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:09:48.035+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:09:48.058+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:09:48.090+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:09:48.090+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:09:48.100+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:09:48.099+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:09:48.107+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.080 seconds
+[2025-12-18T19:10:18.515+0000] {processor.py:157} INFO - Started process (PID=1773) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:10:18.521+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:10:18.522+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:10:18.521+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:10:18.550+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:10:18.595+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:10:18.595+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:10:18.608+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:10:18.608+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:10:18.618+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.113 seconds
+[2025-12-18T19:10:48.916+0000] {processor.py:157} INFO - Started process (PID=1778) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:10:48.918+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:10:48.919+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:10:48.919+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:10:48.948+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:10:48.987+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:10:48.987+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:10:48.998+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:10:48.998+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:10:49.008+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.100 seconds
+[2025-12-18T19:11:19.236+0000] {processor.py:157} INFO - Started process (PID=1783) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:11:19.237+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:11:19.238+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:11:19.238+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:11:19.255+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:11:19.279+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:11:19.279+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:11:19.287+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:11:19.287+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:11:19.295+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.065 seconds
+[2025-12-18T19:11:49.599+0000] {processor.py:157} INFO - Started process (PID=1788) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:11:49.600+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:11:49.601+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:11:49.601+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:11:49.617+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:11:49.649+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:11:49.649+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:11:49.667+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:11:49.666+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:11:49.684+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.094 seconds
+[2025-12-18T19:12:19.928+0000] {processor.py:157} INFO - Started process (PID=1793) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:12:19.929+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:12:19.930+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:12:19.929+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:12:19.949+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:12:19.980+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:12:19.980+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:12:19.992+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:12:19.992+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:12:20.001+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.080 seconds
+[2025-12-18T19:12:50.314+0000] {processor.py:157} INFO - Started process (PID=1798) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:12:50.315+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:12:50.316+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:12:50.315+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:12:50.334+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:12:50.365+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:12:50.364+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:12:50.384+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:12:50.383+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:12:50.396+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.087 seconds
+[2025-12-18T19:13:20.775+0000] {processor.py:157} INFO - Started process (PID=1803) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:13:20.780+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:13:20.781+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:13:20.780+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:13:20.805+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:13:20.848+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:13:20.847+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:13:20.863+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:13:20.863+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:13:20.876+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.108 seconds
+[2025-12-18T19:13:51.087+0000] {processor.py:157} INFO - Started process (PID=1808) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:13:51.088+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:13:51.089+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:13:51.089+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:13:51.108+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:13:51.136+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:13:51.135+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:13:51.145+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:13:51.145+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:13:51.155+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.073 seconds
+[2025-12-18T19:14:21.461+0000] {processor.py:157} INFO - Started process (PID=1813) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:14:21.464+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:14:21.466+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:14:21.465+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:14:21.488+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:14:21.532+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:14:21.532+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:14:21.563+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:14:21.563+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:14:21.577+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.127 seconds
+[2025-12-18T19:14:51.782+0000] {processor.py:157} INFO - Started process (PID=1818) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:14:51.783+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:14:51.784+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:14:51.783+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:14:51.802+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:14:51.826+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:14:51.826+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:14:51.833+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:14:51.833+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:14:51.850+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.074 seconds
+[2025-12-18T19:15:22.133+0000] {processor.py:157} INFO - Started process (PID=1823) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:15:22.134+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:15:22.135+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:15:22.135+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:15:22.152+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:15:22.182+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:15:22.182+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:15:22.191+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:15:22.191+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:15:22.199+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.070 seconds
+[2025-12-18T19:15:52.479+0000] {processor.py:157} INFO - Started process (PID=1828) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:15:52.480+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:15:52.481+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:15:52.481+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:15:52.506+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:15:52.538+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:15:52.537+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:15:52.553+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:15:52.553+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:15:52.563+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.090 seconds
+[2025-12-18T19:16:22.784+0000] {processor.py:157} INFO - Started process (PID=1833) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:16:22.787+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:16:22.788+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:16:22.788+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:16:22.806+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:16:22.827+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:16:22.827+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:16:22.837+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:16:22.837+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:16:22.844+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.066 seconds
+[2025-12-18T19:16:53.140+0000] {processor.py:157} INFO - Started process (PID=1838) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:16:53.141+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:16:53.143+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:16:53.142+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:16:53.159+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:16:53.184+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:16:53.184+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:16:53.192+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:16:53.192+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:16:53.200+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.065 seconds
+[2025-12-18T19:17:23.527+0000] {processor.py:157} INFO - Started process (PID=1843) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:17:23.528+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:17:23.529+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:17:23.528+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:17:23.551+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:17:23.584+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:17:23.584+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:17:23.594+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:17:23.593+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:17:23.608+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.087 seconds
+[2025-12-18T19:17:53.926+0000] {processor.py:157} INFO - Started process (PID=1848) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:17:53.928+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:17:53.929+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:17:53.928+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:17:53.950+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:17:53.981+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:17:53.980+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:17:53.992+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:17:53.992+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:17:54.008+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.087 seconds
+[2025-12-18T19:18:24.270+0000] {processor.py:157} INFO - Started process (PID=1853) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:18:24.272+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:18:24.273+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:18:24.272+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:18:24.295+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:18:24.320+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:18:24.320+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:18:24.336+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:18:24.336+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:18:24.344+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.080 seconds
+[2025-12-18T19:18:54.703+0000] {processor.py:157} INFO - Started process (PID=1858) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:18:54.704+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:18:54.705+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:18:54.705+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:18:54.721+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:18:54.747+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:18:54.747+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:18:54.754+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:18:54.754+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:18:54.761+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.065 seconds
+[2025-12-18T19:19:25.046+0000] {processor.py:157} INFO - Started process (PID=1863) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:19:25.051+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:19:25.052+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:19:25.051+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:19:25.076+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:19:25.109+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:19:25.108+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:19:25.117+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:19:25.117+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:19:25.129+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.094 seconds
+[2025-12-18T19:19:55.381+0000] {processor.py:157} INFO - Started process (PID=1868) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:19:55.382+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:19:55.383+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:19:55.382+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:19:55.402+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:19:55.436+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:19:55.436+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:19:55.445+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:19:55.445+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:19:55.452+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.077 seconds
+[2025-12-18T19:20:25.769+0000] {processor.py:157} INFO - Started process (PID=1873) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:20:25.772+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:20:25.773+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:20:25.773+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:20:25.791+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:20:25.823+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:20:25.823+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:20:25.832+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:20:25.832+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:20:25.839+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.076 seconds
+[2025-12-18T19:20:56.130+0000] {processor.py:157} INFO - Started process (PID=1878) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:20:56.131+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:20:56.133+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:20:56.132+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:20:56.150+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:20:56.176+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:20:56.176+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:20:56.186+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:20:56.186+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:20:56.196+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.071 seconds
+[2025-12-18T19:21:26.570+0000] {processor.py:157} INFO - Started process (PID=1883) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:21:26.571+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:21:26.572+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:21:26.572+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:21:26.590+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:21:26.619+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:21:26.618+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:21:26.628+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:21:26.628+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:21:26.637+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.074 seconds
+[2025-12-18T19:21:56.968+0000] {processor.py:157} INFO - Started process (PID=1888) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:21:56.970+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:21:56.971+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:21:56.971+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:21:56.994+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:21:57.025+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:21:57.025+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:21:57.034+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:21:57.034+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:21:57.050+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.088 seconds
+[2025-12-18T19:22:27.354+0000] {processor.py:157} INFO - Started process (PID=1893) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:22:27.371+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:22:27.376+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:22:27.375+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:22:27.404+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:22:27.438+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:22:27.438+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:22:27.446+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:22:27.446+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:22:27.455+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.109 seconds
+[2025-12-18T19:22:57.787+0000] {processor.py:157} INFO - Started process (PID=1898) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:22:57.789+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:22:57.790+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:22:57.789+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:22:57.815+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:22:57.856+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:22:57.855+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:22:57.864+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:22:57.864+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:22:57.872+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.095 seconds
+[2025-12-18T19:23:28.152+0000] {processor.py:157} INFO - Started process (PID=1903) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:23:28.153+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:23:28.154+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:23:28.154+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:23:28.177+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:23:28.221+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:23:28.221+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:23:28.230+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:23:28.230+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:23:28.246+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.099 seconds
+[2025-12-18T19:23:58.485+0000] {processor.py:157} INFO - Started process (PID=1908) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:23:58.488+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:23:58.490+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:23:58.489+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:23:58.510+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:23:58.543+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:23:58.543+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:23:58.552+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:23:58.552+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:23:58.567+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.090 seconds
+[2025-12-18T19:24:28.891+0000] {processor.py:157} INFO - Started process (PID=1913) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:24:28.893+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:24:28.898+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:24:28.896+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:24:28.916+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:24:28.950+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:24:28.950+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:24:28.958+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:24:28.958+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:24:28.966+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.080 seconds
+[2025-12-18T19:24:59.338+0000] {processor.py:157} INFO - Started process (PID=1918) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:24:59.340+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:24:59.342+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:24:59.341+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:24:59.363+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:24:59.401+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:24:59.400+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:24:59.412+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:24:59.411+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:24:59.431+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.104 seconds
+[2025-12-18T19:25:29.722+0000] {processor.py:157} INFO - Started process (PID=1923) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:25:29.724+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:25:29.726+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:25:29.725+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:25:29.767+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:25:29.824+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:25:29.824+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:25:29.839+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:25:29.839+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:25:29.852+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.139 seconds
+[2025-12-18T19:26:00.224+0000] {processor.py:157} INFO - Started process (PID=1928) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:26:00.225+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:26:00.226+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:26:00.225+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:26:00.246+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:26:00.338+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:26:00.338+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:26:00.364+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:26:00.364+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:26:00.379+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.164 seconds
+[2025-12-18T19:26:30.825+0000] {processor.py:157} INFO - Started process (PID=1933) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:26:30.827+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:26:30.830+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:26:30.829+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:26:30.851+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:26:30.887+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:26:30.887+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:26:30.895+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:26:30.895+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:26:30.904+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.087 seconds
+[2025-12-18T19:27:01.220+0000] {processor.py:157} INFO - Started process (PID=1938) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:27:01.221+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:27:01.222+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:27:01.222+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:27:01.238+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:27:01.271+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:27:01.271+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:27:01.293+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:27:01.293+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:27:01.307+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.094 seconds
+[2025-12-18T19:27:31.553+0000] {processor.py:157} INFO - Started process (PID=1943) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:27:31.556+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:27:31.557+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:27:31.557+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:27:31.572+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:27:31.597+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:27:31.596+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:27:31.604+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:27:31.604+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:27:31.611+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.068 seconds
+[2025-12-18T19:28:01.952+0000] {processor.py:157} INFO - Started process (PID=1948) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:28:01.953+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:28:01.954+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:28:01.954+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:28:01.967+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:28:02.026+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:28:02.026+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:28:02.088+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:28:02.088+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:28:02.124+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.176 seconds
+[2025-12-18T19:43:39.977+0000] {processor.py:157} INFO - Started process (PID=1953) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:43:39.978+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:43:39.979+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:43:39.979+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:43:39.994+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:43:40.026+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:43:40.026+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:43:40.035+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:43:40.035+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:43:40.044+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.073 seconds
+[2025-12-18T19:54:46.618+0000] {processor.py:157} INFO - Started process (PID=1962) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:54:46.620+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:54:46.622+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:54:46.621+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:54:46.650+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:54:46.698+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:54:46.698+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:54:46.711+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:54:46.711+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:54:46.722+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.111 seconds
+[2025-12-18T19:55:17.024+0000] {processor.py:157} INFO - Started process (PID=1967) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:55:17.025+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:55:17.026+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:55:17.026+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:55:17.044+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:55:17.070+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:55:17.070+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:55:17.080+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:55:17.080+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:55:17.090+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.071 seconds
+[2025-12-18T19:55:47.414+0000] {processor.py:157} INFO - Started process (PID=1972) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:55:47.416+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:55:47.417+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:55:47.416+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:55:47.437+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:55:47.470+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:55:47.470+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:55:47.481+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:55:47.481+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:55:47.494+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.085 seconds
+[2025-12-18T19:56:17.756+0000] {processor.py:157} INFO - Started process (PID=1977) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:56:17.758+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:56:17.759+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:56:17.759+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:56:17.777+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:56:17.805+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:56:17.805+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:56:17.815+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:56:17.815+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:56:17.825+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.075 seconds
+[2025-12-18T19:56:48.110+0000] {processor.py:157} INFO - Started process (PID=1982) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:56:48.112+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:56:48.113+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:56:48.113+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:56:48.136+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:56:48.173+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:56:48.173+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:56:48.184+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:56:48.184+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:56:48.193+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.092 seconds
+[2025-12-18T19:57:18.403+0000] {processor.py:157} INFO - Started process (PID=1987) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:57:18.404+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:57:18.405+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:57:18.405+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:57:18.419+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:57:18.448+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:57:18.448+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:57:18.463+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:57:18.463+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:57:18.476+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.077 seconds
+[2025-12-18T19:57:48.744+0000] {processor.py:157} INFO - Started process (PID=1992) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:57:48.745+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:57:48.746+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:57:48.746+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:57:48.758+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:57:48.808+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:57:48.808+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:57:48.820+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:57:48.820+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:57:48.829+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.091 seconds
+[2025-12-18T19:58:19.048+0000] {processor.py:157} INFO - Started process (PID=1997) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:58:19.049+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:58:19.050+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:58:19.050+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:58:19.071+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:58:19.103+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:58:19.103+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:58:19.122+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:58:19.122+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:58:19.138+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.095 seconds
+[2025-12-18T19:58:49.467+0000] {processor.py:157} INFO - Started process (PID=2002) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:58:49.469+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:58:49.469+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:58:49.469+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:58:49.488+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:58:49.530+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:58:49.530+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:58:49.541+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:58:49.541+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:58:49.553+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.090 seconds
+[2025-12-18T19:59:19.835+0000] {processor.py:157} INFO - Started process (PID=2007) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:59:19.837+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T19:59:19.838+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:59:19.837+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:59:19.854+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T19:59:19.880+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:59:19.880+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T19:59:19.889+0000] {logging_mixin.py:151} INFO - [2025-12-18T19:59:19.889+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T19:59:19.898+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.072 seconds
+[2025-12-18T20:15:12.048+0000] {processor.py:157} INFO - Started process (PID=2012) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T20:15:12.049+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T20:15:12.051+0000] {logging_mixin.py:151} INFO - [2025-12-18T20:15:12.050+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T20:15:12.077+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T20:15:12.116+0000] {logging_mixin.py:151} INFO - [2025-12-18T20:15:12.116+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T20:15:12.144+0000] {logging_mixin.py:151} INFO - [2025-12-18T20:15:12.144+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T20:15:12.159+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.123 seconds
+[2025-12-18T20:15:42.374+0000] {processor.py:157} INFO - Started process (PID=2018) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T20:15:42.377+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T20:15:42.379+0000] {logging_mixin.py:151} INFO - [2025-12-18T20:15:42.378+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T20:15:42.402+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T20:15:42.442+0000] {logging_mixin.py:151} INFO - [2025-12-18T20:15:42.441+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T20:15:42.452+0000] {logging_mixin.py:151} INFO - [2025-12-18T20:15:42.452+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T20:15:42.460+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.097 seconds
+[2025-12-18T20:34:56.432+0000] {processor.py:157} INFO - Started process (PID=2023) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T20:34:56.435+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T20:34:56.440+0000] {logging_mixin.py:151} INFO - [2025-12-18T20:34:56.438+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T20:34:56.739+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T20:34:56.809+0000] {logging_mixin.py:151} INFO - [2025-12-18T20:34:56.808+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T20:34:56.818+0000] {logging_mixin.py:151} INFO - [2025-12-18T20:34:56.818+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T20:34:56.829+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.406 seconds
+[2025-12-18T22:07:34.595+0000] {processor.py:157} INFO - Started process (PID=2029) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T22:07:34.597+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T22:07:34.598+0000] {logging_mixin.py:151} INFO - [2025-12-18T22:07:34.598+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T22:07:34.616+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T22:07:34.671+0000] {logging_mixin.py:151} INFO - [2025-12-18T22:07:34.671+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T22:07:34.687+0000] {logging_mixin.py:151} INFO - [2025-12-18T22:07:34.687+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T22:07:34.699+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.109 seconds
+[2025-12-18T23:28:35.148+0000] {processor.py:157} INFO - Started process (PID=2035) to work on /opt/airflow/dags/etl_dag.py
+[2025-12-18T23:28:35.149+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/etl_dag.py for tasks to queue
+[2025-12-18T23:28:35.150+0000] {logging_mixin.py:151} INFO - [2025-12-18T23:28:35.150+0000] {dagbag.py:539} INFO - Filling up the DagBag from /opt/airflow/dags/etl_dag.py
+[2025-12-18T23:28:35.168+0000] {processor.py:839} INFO - DAG(s) dict_keys(['bank_bigdata_pipeline']) retrieved from /opt/airflow/dags/etl_dag.py
+[2025-12-18T23:28:35.200+0000] {logging_mixin.py:151} INFO - [2025-12-18T23:28:35.200+0000] {dag.py:2915} INFO - Sync 1 DAGs
+[2025-12-18T23:28:35.213+0000] {logging_mixin.py:151} INFO - [2025-12-18T23:28:35.213+0000] {dag.py:3696} INFO - Setting next_dagrun for bank_bigdata_pipeline to None, run_after=None
+[2025-12-18T23:28:35.226+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/etl_dag.py took 0.084 seconds

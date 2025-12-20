@@ -15,7 +15,7 @@ def load_data(query):
     except:
         return pd.DataFrame()
 
-if st.button("Обновить"): st.experimental_rerun()
+if st.button("Обновить"): st.rerun()
 
 col1, col2 = st.columns(2)
 with col1:
